@@ -1,0 +1,108 @@
+Boundaries of region Karman:
+Boundary V.Karman.Inlet: 168 quadrilateral faces
+ Extents:
+  x: [-2.7105054312e-20, 5.4210108624e-20] m
+  y: [-1.2500000000e-02, 1.2500000000e-02] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ surface area: 4.9999998737e-05 m^2
+   Setting pro-STAR cell IDs on Karman starting at 1
+ maximum boundary skewness angle = 0.0000000000e+00 deg
+Boundary V.Karman.Wall: 1344 quadrilateral faces
+ Extents:
+  x: [0.0000000000e+00, 1.0000000000e-01] m
+  y: [-1.2500000000e-02, 1.2500000000e-02] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ surface area: 3.9999998990e-04 m^2
+ maximum boundary skewness angle = 0.0000000000e+00 deg
+Boundary V.Karman.Outlet: 168 quadrilateral faces
+ Extents:
+  x: [1.0000000000e-01, 1.0000000000e-01] m
+  y: [-1.2500000000e-02, 1.2500000000e-02] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ surface area: 4.9999998737e-05 m^2
+ maximum boundary skewness angle = 0.0000000000e+00 deg
+Boundary V.Karman.Cyl: 44324 faces (44 triangular, 44280 quadrilateral)
+ Extents:
+  x: [3.8750000001e-02, 4.1250000000e-02] m
+  y: [-1.2499762605e-03, 1.2499762606e-03] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ surface area: 1.5707551938e-05 m^2
+ maximum boundary skewness angle = 6.0972198486e+01 deg in cell with pro-STAR Cell ID 34763
+Boundary V.Karman.SideWalls: 19664 faces (308 triangular, 18339 quadrilateral, 1017 polygonal)
+ Extents:
+  x: [0.0000000000e+00, 1.0000000000e-01] m
+  y: [-1.2500000000e-02, 1.2500000000e-02] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ surface area: 4.9901828170e-03 m^2
+ maximum boundary skewness angle = 1.2084815979e+01 deg in cell with pro-STAR Cell ID 158688
+
+Region Karman: 
+  123997 hexahedral cells
+   16632 wedge cells
+   24783 polyhedral cells
+  165412 cells total
+  488071 interior faces (16478 triangular, 432731 quadrilateral, 38862 polygonal)
+  223606 vertices
+
+
+ Extents:
+  x: [-2.7105054312e-20, 1.0000000000e-01] m
+  y: [-1.2500000000e-02, 1.2500000000e-02] m
+  z: [-1.0000000000e-03, 1.0000000000e-03] m
+ Maximum interior cell index delta: 162458, average: 1.2401193392e+03
+ Maximum cell face index delta: 479539, average: 8.0361534592e+03
+ Volume range: [1.0833507059e-16, 2.1600003730e-10] m^3
+ Minimum volume in cell with pro-STAR Cell ID 85626
+ Minimum distance between centroids of neighbor cells = 1.1396191505e-05
+       between cells with pro-STAR Cell ID 49117 and 48382
+ Maximum skewness angle = 6.0972198486e+01 deg in cell with pro-STAR Cell ID 34763
+
+Face validity: 
+Minimum Face Validity: 1.0000000000e+00
+Maximum Face Validity: 1.0000000000e+00
+        Face Validity <  0.50           0    0.000%
+0.50 <= Face Validity <  0.60           0    0.000%
+0.60 <= Face Validity <  0.70           0    0.000%
+0.70 <= Face Validity <  0.80           0    0.000%
+0.80 <= Face Validity <  0.90           0    0.000%
+0.90 <= Face Validity <  0.95           0    0.000%
+0.95 <= Face Validity <  1.00           0    0.000%
+1.00 <= Face Validity              165412   100.000%
+
+Volume Change: 
+Minimum Volume Change: 5.705804e-02
+Maximum Volume Change: 1.000000e+00
+         Volume Change <  0e+00           0    0.000%
+0e+00 <= Volume Change <  1e-06           0    0.000%
+1e-06 <= Volume Change <  1e-05           0    0.000%
+1e-05 <= Volume Change <  1e-04           0    0.000%
+1e-04 <= Volume Change <  1e-03           0    0.000%
+1e-03 <= Volume Change <  1e-02           0    0.000%
+1e-02 <= Volume Change <  1e-01        5602    3.387%
+1e-01 <= Volume Change <= 1e+00      159810   96.613%
+ Maximum boundary skewness angle in region = 6.097220e+01 deg
+
+Overall Face Validity: 
+Minimum Face Validity: 1.000000e+00
+Maximum Face Validity: 1.000000e+00
+        Face Validity <  0.50           0    0.000%
+0.50 <= Face Validity <  0.60           0    0.000%
+0.60 <= Face Validity <  0.70           0    0.000%
+0.70 <= Face Validity <  0.80           0    0.000%
+0.80 <= Face Validity <  0.90           0    0.000%
+0.90 <= Face Validity <  0.95           0    0.000%
+0.95 <= Face Validity <  1.00           0    0.000%
+1.00 <= Face Validity              165412   100.000%
+
+Overall Volume Change: 
+Minimum Volume Change: 5.705804e-02
+Maximum Volume Change: 1.000000e+00
+         Volume Change <  0e+00           0    0.000%
+0e+00 <= Volume Change <  1e-06           0    0.000%
+1e-06 <= Volume Change <  1e-05           0    0.000%
+1e-05 <= Volume Change <  1e-04           0    0.000%
+1e-04 <= Volume Change <  1e-03           0    0.000%
+1e-03 <= Volume Change <  1e-02           0    0.000%
+1e-02 <= Volume Change <  1e-01        5602    3.387%
+1e-01 <= Volume Change <= 1e+00      159810   96.613%
+
