@@ -11,4 +11,6 @@ The "CFD_Information directory" consists of:
 - Probe Points:               Karman and Mixing Layer
 
 The Karman_DoE_LES directory consists of:
-
+- Pressure: 
+    - GIFs:                  Total flow-field & Fluctuating flow-field
+    - Figures:               Mean flow-field
