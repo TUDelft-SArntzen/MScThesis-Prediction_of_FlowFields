@@ -31,4 +31,14 @@ The "Karman_DoE_POD_Interpolation" directory consists of:
             - Temporal coefficients: modes 1-10, for operating point 1-13
      -Results:
           - GIFs:                  Flutuating flow-field (operating point 2-8)
-    
+          
+The "Karman_DoE_POD_Interpolation" directory consists of:
+- Decomposition/Mode selection: Mode selectio for operating point 1-13
+- DiscoveringScaling relations: leading mode figures
+- Spatial modes sDMD: spatial modes for operating point 1-13
+- Results:
+    - Deviation figures
+    - MRE
+    - GIFs: fluctuating flow field
+    - Pressure figures
+
