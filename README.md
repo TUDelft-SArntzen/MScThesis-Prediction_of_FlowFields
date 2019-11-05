@@ -20,17 +20,17 @@ The "Karman_DoE_LES" directory consists of:
 The "Karman_DoE_POD_Interpolation" directory consists of:
 - Pressure: 
     - Decomposition: 
-    - Spatial modes:         modes 1-10, for operating point 1-13
-    - Temporal coefficients: modes 1-10, for operating point 1-13
+            - Spatial modes:         modes 1-10, for operating point 1-13
+            - Temporal coefficients: modes 1-10, for operating point 1-13
     -Results:
-    - GIFs:                  Total flow-field (operating point 2-8) & Fluctuating flow-field (operating point 8)
-    - Figures:               Mean flow-field, Pressure figures and deviation figures
+            - GIFs:                  Total flow-field (operating point 2-8) & Fluctuating flow-field (operating point 8)
+            - Figures:               Mean flow-field, Pressure figures and deviation figures
 - Vorticity:
      - Decomposition: 
-     - Spatial modes:         modes 1-10, for operating point 1,8, 13
-     - Temporal coefficients: modes 1-10, for operating point 1-13
+             - Spatial modes:         modes 1-10, for operating point 1,8, 13
+             - Temporal coefficients: modes 1-10, for operating point 1-13
      -Results:
-     - GIFs:                  Flutuating flow-field (operating point 2-8)
+             - GIFs:                  Flutuating flow-field (operating point 2-8)
           
 The "Karman_DoE_POD_Interpolation" directory consists of:
 - Decomposition/Mode selection: Mode selectio for operating point 1-13
